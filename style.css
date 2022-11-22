@@ -4,19 +4,23 @@
 }
 body {
   background-color: black;
-  background-image: url(./img/wallpaper.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 .wrapper {
   display: flex;
   flex-direction: column;
   align-items: center;
-  position: relative;
-  width: 800px;
+  position: absolute;
+  width: 100%;
   margin: 30px auto;
   color: rgb(255, 255, 255);
   text-align: center;
+  min-width: 630px;
+}
+.container {
+  position: absolute;
+}
+.wrapper img {
+  background-size: cover;
 }
 h1,
 h2,
@@ -28,15 +32,15 @@ h3 {
   text-shadow: -1px 3px 0px black;
 }
 .timer {
-  margin-top: 390px;
-  margin-right: 19px;
+  margin-top: 423px;
+  margin-left: 137px;
   color: black;
   background-color: green;
   width: 315px;
   height: 80px;
   font-weight: 600;
   font-size: 2.9em;
-  rotate: 2deg;
+  rotate: 1deg;
 }
 #mins,
 #seconds,
