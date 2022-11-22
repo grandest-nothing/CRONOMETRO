@@ -1,7 +1,7 @@
 <h1 align="center"> RICKETY CRONO </h1>
 
 <h3 align="center">
-  <a href="https://rick-and-morty-eye-moving.vercel.app">Acesse Meu App</a>
+  <a href="https://cronometro-iota.vercel.app">Acesse Meu App</a>
 </h3>
 
 <p align="center">
